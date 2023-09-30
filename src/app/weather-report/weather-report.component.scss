@@ -1,0 +1,86 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .top-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  mat-card {
+    width: 375px; 
+  }
+  
+  mat-card::ng-deep.mat-card-header-text {
+    width:150%; 
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  
+    > div {
+      flex: 75%;
+      border-radius: 15px; 
+      padding: 15px;
+    }
+  
+    > .outlook {
+      color: black;
+      background: rgba(0, 0, 0, 0.1);
+    }
+  
+    > .temp {
+      background: lightblue;
+      color: black;
+      margin-right: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .big-text {
+      font-size: 45px; 
+    }
+  
+    .image {
+      height: 120px;
+    }
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button.mat-button {
+    margin: 0 3px; 
+  }
+  
+  .instagram-logo {
+    width: 60px; 
+    height: 60px; 
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .today {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .feels{
+    padding-top: 40px; 
+    font-size: 20px;
+   }
+   .feels1{
+    font-size: 20px;
+   }
